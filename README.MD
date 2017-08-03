@@ -2,7 +2,8 @@
 
 Deep learning & satellite imagery are changing the way we look at agriculture. Our Primary goal is Make the Crops Searchable from Satellite Imagery and identify the Geo Location of the crops with Crop Based Deep learning Models.
 We explain the e-farmerce Platform Implementation of Deep Learning in Satellite Imagery for Coconut Crop Identification
-
+## Video Tutorial
+[![Deep Learning in Agriculture Crop Identification ](https://user-images.githubusercontent.com/30501155/28919964-6422f546-786d-11e7-9267-97361f0df49c.png)](https://youtu.be/u87eDKkTmNU "Deep Learning in Agriculture Crop Identification ")
 
 ## Underlying Technology
 
