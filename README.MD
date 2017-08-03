@@ -6,6 +6,8 @@ We explain the e-farmerce Platform Implementation of Deep Learning in Satellite 
 [![Deep Learning in Agriculture Crop Identification ](https://user-images.githubusercontent.com/30501155/28919964-6422f546-786d-11e7-9267-97361f0df49c.png)](https://youtu.be/u87eDKkTmNU "Deep Learning in Agriculture Crop Identification ")
 
 ## Underlying Technology
+![slide5](https://user-images.githubusercontent.com/30501155/28920256-9d9ea2a6-786e-11e7-9239-59ae8ae8ffe5.PNG)
+![slide7](https://user-images.githubusercontent.com/30501155/28920279-b32886e6-786e-11e7-9ae6-3f24b12393d8.PNG)
 
 The satellite imagery is retrieved using Google Static Maps API using Ruby and GeoJSON. The details on how to achieve this are mentioned in the ```README``` in the ```download_area``` directory.
 
@@ -52,6 +54,10 @@ The train/validation/test sets for Cumbum can be visualized [here](http://bl.ock
 
 	python model_predict.py <test images directory>/
 	#will generate predictions as a .csv file.
+
+## Deep Learning Coconut Crop Identification Result
+
+![results](https://user-images.githubusercontent.com/30501155/28920401-4e7e2f38-786f-11e7-9de7-564e607efac1.png)
 
 ## Notes
 
