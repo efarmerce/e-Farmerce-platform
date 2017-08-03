@@ -1,8 +1,8 @@
-![E-Farmerce](http://e-farmerce.com/logo.jpg)
+![e-farmerce Platform](http://e-farmerce.com/logo.jpg)
 
-## Synopsis
+Deep learning & satellite imagery are changing the way we look at agriculture. Our Primary goal is Make the Crops Searchable from Satellite Imagery and identify the Geo Location of the crops with Crop Based Deep learning Models.
+We explain the e-farmerce Platform Implementation of Deep Learning in Satellite Imagery for Coconut Crop Identification
 
-This is the deep learning system that was used in the back-end for the E-Farmerce platform. The system currently recognizes coconut farms from RGB satellite imagery of Cumbum and Pollachi regions in Tamil Nadu, India. In the long run, it will be extended to other crops, and areas.
 
 ## Underlying Technology
 
