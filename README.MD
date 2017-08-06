@@ -4,7 +4,7 @@ Deep learning & satellite imagery are changing the way we look at agriculture. O
 
 In the area where our Deep Learning codes for coconut model has been tested, we show the Crop Health from the Multispectral Satellite Imagery which represents relative chlorophyll content, which correlates with vegetation vigor and productivity
 
-This shows  our Implentation can be used to Identify a Specific Crop and assess productivity of crops to identify site-specific issues that can be addressed by corrective management decisions.
+This shows  our Implentation can be used to Identify a Specific Crop and assess productivity of crops in the same geolocation to identify site-specific issues that can be addressed by corrective management decisions.
 
 We have Used NASA WorldWind for Data Visualisation and Interpretation
 
