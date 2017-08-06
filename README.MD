@@ -62,8 +62,7 @@ The train/validation/test sets for Cumbum can be visualized [here](http://bl.ock
 	#will generate predictions as a .csv file.
 
 ## Deep Learning Coconut Crop Identification Result
-
-img width="620" alt="output image 1" src="https://user-images.githubusercontent.com/30501155/29003930-5db2b35a-7add-11e7-93db-aed0abdee2de.png">
+![output image 1](https://user-images.githubusercontent.com/30501155/29003950-c8f33018-7add-11e7-8959-665db2c64249.jpg)
 
 
 Our Deep Learning coconut model can able to predict the coconut farm in a specified area with 80% accuracy, still work in progress on the neural network architecture to achieve greater prediction accuracy with more coverage area.
