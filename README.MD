@@ -73,6 +73,19 @@ To show and demonstrate the power of Deep Learning in satellite imagery we have 
 
 <img width="607" alt="jan2017" src="https://user-images.githubusercontent.com/30501155/29004076-79f49f40-7adf-11e7-8146-b308efb184c3.png">
 
+For Crop Health analysis we have used 4-band multispectral satellite imagery (R, G, B, NIR) with pixel size 3m
+
+<img width="588" alt="feb2017" src="https://user-images.githubusercontent.com/30501155/29004131-75ff0d16-7ae0-11e7-8980-3aab0e22efd6.png">
+
+In the  same area where our Deep Learning codes for coconut model has been tested, we show the Vegetation Index for the same Geolocation for the Month of January and February 2017. 
+The vegetation index displayed represents relative chlorophyll content, which correlates with vegetation vigor and productivity. The red tones represent low relative chlorophyll content while the green ones show high relative chlorophyll content.
+
+## Summary 
+Our Implementation Shows you can find a Crop (example : coconut crop) based on Deep Learning and use the Multispectral Imagery in the same geolocation to find the Crop Health by using the NASA Worldwind Visualization tools.
+
+## Planned OutReach
+Using the power of Deep Learning we can Identify the Coconut crop in Large Geo Location without getting the Boots on the ground, by further integrating the Multispectral Imagery based crop Health analysis, we will come to know which geo location we need to focus and prioritize based on the Crop Identification results. Farmers in those stressfull regions will be advised and helped to manage the crops effectively to increase productivity 
+
 ## Notes
 
 The Neural Network was trained using [Floydhub's](http://floydhub.com) free GPU offering. On average, it took 1 hour for our models, which were roughly 10MB in size.
