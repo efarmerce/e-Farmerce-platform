@@ -23,8 +23,8 @@ The labels and the images are then converted into a Keras friendly format, i.e.,
 
 This HDF5 file is fed to a Convolutional Neural Network, which is a Sequential Keras model. The trained model can then be used to make predictions.
 
-These predictions are saved to a ```.csv``` file so that they can be easily exported for visualization in other software, such as [Google Custom Maps.](
-https://www.google.com/mymaps/)
+These predictions are saved to a ```.csv``` file so that they can be easily exported for visualization in other software, such as [NASA WorldWind.](
+https://worldwind.arc.nasa.gov//)
 
 ## Getting Started
 
