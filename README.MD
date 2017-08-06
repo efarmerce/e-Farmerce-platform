@@ -69,7 +69,9 @@ Our Deep Learning coconut model can able to predict the coconut farm in a specif
 
 To show and demonstrate the power of Deep Learning in satellite imagery we have used Google maps satellite imagery, work in progress for using other commercial satellite imagery. 
 
+## MultiSpectral Satellite Imagery Crop Health Analysis 
 
+<img width="607" alt="jan2017" src="https://user-images.githubusercontent.com/30501155/29004076-79f49f40-7adf-11e7-8146-b308efb184c3.png">
 
 ## Notes
 
