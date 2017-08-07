@@ -83,7 +83,7 @@ The vegetation index displayed represents relative chlorophyll content, which co
 ## Summary 
 Our Implementation Shows you can find a Crop (example : coconut crop) based on Deep Learning and use the Multispectral Imagery in the same geolocation to find the Crop Health by using the NASA Worldwind Visualization tools.
 
-## Planned OutReach
+## Planned Outreach
 Using the power of Deep Learning we can Identify the Coconut crop in Large Geo Location without getting the Boots on the ground, by further integrating the Multispectral Imagery based crop Health analysis, we will come to know which geo location we need to focus and prioritize based on the Crop Identification results. Farmers in those stressfull regions will be advised and helped to manage the crops effectively to increase productivity 
 
 ## Notes
