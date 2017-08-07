@@ -9,7 +9,7 @@ This shows  our Implentation can be used to Identify a Specific Crop and assess 
 We have Used NASA WorldWind for Data Visualisation and Interpretation
 
 ## Video Tutorial
-[![Deep Learning in Agriculture Crop Identification ](https://user-images.githubusercontent.com/30501155/28919964-6422f546-786d-11e7-9267-97361f0df49c.png)](https://youtu.be/Gs6WzXgzSOY "Deep Learning in Agriculture Crop Identification ")
+[![Deep Learning in Agriculture Crop Identification ](https://user-images.githubusercontent.com/30501155/28919964-6422f546-786d-11e7-9267-97361f0df49c.png)](https://youtu.be/GwsOODPgaUU "Deep Learning in Agriculture Crop Identification ")
 
 ## Underlying Technology
 ![slide5](https://user-images.githubusercontent.com/30501155/28920256-9d9ea2a6-786e-11e7-9239-59ae8ae8ffe5.PNG)
