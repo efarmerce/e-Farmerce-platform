@@ -1,1 +1,8 @@
 /download_area/results
+output/
+test/
+.project
+.pydevproject
+Dataset.h5
+model_define.pyc
+Classifications.p
