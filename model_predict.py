@@ -1,7 +1,7 @@
 import os, glob, pickle, argparse, imutils
 import numpy as np
 from PIL import Image
-
+import common
 
 weights = glob.glob('output/weights*.h5')
 parser = argparse.ArgumentParser()
@@ -28,8 +28,8 @@ def process_img(image):
 
 check_args()
 
-import model_define
-classifier = model_define.create_model_v3()
+
+classifier = common.getModel()
 classifier.load_weights(weights[0])
 
 images_directory = args.ImagesDirectory

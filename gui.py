@@ -1,5 +1,5 @@
 from Tkinter import *
-from PIL import Image, ImageTk, ImageDraw
+from PIL import ImageTk, ImageDraw
 import glob
 
 global index, classifications

@@ -2,6 +2,11 @@ import h5py
 import pickle
 import os
 import argparse
+import common
+from PIL import Image
+import numpy as np
+import imutils
+
 
 parser = argparse.ArgumentParser()
 parser.add_argument('ImagesDirectory',help='Path to images directory')
@@ -20,10 +25,9 @@ def check_args():
 		print "Loading."
 
 check_args()
-dataset_h5_path ='Dataset.h5'
 
-if not os.path.exists(dataset_h5_path):
-    dataset_h5 = h5py.File(dataset_h5_path, 'a')
+if not os.path.exists(common.dataset_name):
+    dataset_h5 = h5py.File(common.dataset_name, 'a')
     dataset_h5.create_dataset('data', shape=(1731, 256,256,3),
                               maxshape=(None, 256,256,3),
                               compression='gzip', compression_opts=6)
@@ -33,10 +37,10 @@ if not os.path.exists(dataset_h5_path):
     print ('Dataset was created')
 else:
     print ('Dataset exists')
-    dataset_h5 = h5py.File(dataset_h5_path, 'a')
+    dataset_h5 = h5py.File(common.dataset_name, 'a')
 
 images_directory_path = args.ImagesDirectory
-pickled_data = 'Classifications.p'
+pickled_data = common.classifications_file_name
 
 
 with open(pickled_data, 'rb') as f:
@@ -49,9 +53,6 @@ enc.fit(cleaned_source.values())
 all_labels = enc.transform(cleaned_source.values())
 
 
-from PIL import Image
-import numpy as np
-import imutils
 
 
 for i in range(0, len(cleaned_source.items())//16, 16):
