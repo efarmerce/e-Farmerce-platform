@@ -4,5 +4,5 @@ test/
 .project
 .pydevproject
 Dataset.h5
-model_define.pyc
+*.pyc
 Classifications.p
