@@ -7,6 +7,7 @@ import h5py
 import numpy as np
 import common
 from collections import OrderedDict
+import matplotlib.pyplot as plt
 
 # hyper-parameters
 epochs = 500
@@ -40,6 +41,8 @@ with open('output/'+model_name+'_indices.p', 'wb') as f:
     pickle.dump(indices, f, protocol=2)
 model = common.getModel()
 model.compile(loss=loss_function,optimizer=optimizer, metrics=['accuracy'])
+
+#note: model doesn't converge unless we re-scale pixels to range [0,1]
 train_datagen = ImageDataGenerator(fill_mode='reflect',
                                    shear_range=0.3,
                                    rotation_range=90,
@@ -56,8 +59,27 @@ filepath = "output/weights"+model_name+".h5"
 checkpoint = callbacks.ModelCheckpoint(filepath, monitor='val_acc', verbose=1, save_best_only=True, mode='max')
 reduce_lr = callbacks.ReduceLROnPlateau(monitor='val_loss', factor=0.8,patience=5, min_lr=learning_rate_init, verbose=1)
 callbacks_list = [checkpoint, reduce_lr]
-model.fit_generator(train_generator,
+history = model.fit_generator(train_generator,
     steps_per_epoch=len(train) // batch_size,
     epochs=epochs,
     validation_data=validation_generator,
     validation_steps=len(test) // batch_size, callbacks=callbacks_list, verbose=1)
+
+
+# summarize history for accuracy
+plt.plot(history.history['acc'])
+plt.plot(history.history['val_acc'])
+plt.title('model accuracy')
+plt.ylabel('accuracy')
+plt.xlabel('epoch')
+plt.legend(['train', 'test'], loc='upper left')
+plt.show()
+
+# summarize history for loss
+plt.plot(history.history['loss'])
+plt.plot(history.history['val_loss'])
+plt.title('model loss')
+plt.ylabel('loss')
+plt.xlabel('epoch')
+plt.legend(['train', 'test'], loc='upper left')
+plt.show()
