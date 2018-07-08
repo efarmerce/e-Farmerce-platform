@@ -124,7 +124,8 @@ else
 end
 #--- 
 def build_url(lat,lng,zoom=DEFAULT_ZOOM, size=IMAGE_SIZE)
-  raise("No URL Defined")
+  raise("Please uncomment and enter your Google API KEY below")
+  # "https://maps.googleapis.com/maps/api/staticmap?center=#{lat},#{lng}&zoom=#{zoom}&maptype=satellite&size=#{size}x#{size}&key=YOUR_GOOGLE_API_KEY" 
 end
 
 lookup = {}
